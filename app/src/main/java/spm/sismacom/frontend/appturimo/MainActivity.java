@@ -11,7 +11,10 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.util.ArrayList;
+
 import spm.sismacom.frontend.appturimo.contoller.LoginController;
+import spm.sismacom.frontend.appturimo.modelo.Cotizacion;
 import spm.sismacom.frontend.appturimo.modelo.Usuario;
 
 public class MainActivity extends AppCompatActivity {
@@ -20,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.loginform);
+
+
 
         LoginController.cargaUsuarios();
         Button btnlogin=(Button)findViewById(R.id.btnLogin);
