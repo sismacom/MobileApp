@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AppTurimo</string>
+    <string name="btnIngresar">Ingresar</string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="btnLogGoogle">Iniciar con google</string>
+    <string name="olvido">Olvido su contraseña....</string>
+    <string name="request_google">465364244290-jpci0710m2p6vu9jqe7418b52pe11mgd.apps.googleusercontent.com</string>
 </resources>

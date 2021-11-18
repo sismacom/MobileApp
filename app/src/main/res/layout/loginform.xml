@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#347E97"
-    android:gravity="center_vertical"
+    android:background="#36708F"
+    android:gravity="center_horizontal|center_vertical"
     android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
         android:id="@+id/textView2"
@@ -38,8 +45,9 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:padding="10dp"
-                android:text="Usuario: "
+                android:text="Email: "
                 android:textSize="18sp" />
 
             <EditText
@@ -47,7 +55,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:inputType="textPersonName"
+                android:gravity="center"
+                android:hint="usuario@google.com"
+                android:inputType="textEmailAddress"
                 android:textSize="18sp" />
         </LinearLayout>
 
@@ -59,6 +69,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:padding="10dp"
                 android:text="Password: "
                 android:textSize="18sp" />
@@ -67,6 +78,7 @@
                 android:id="@+id/txtPassUsuario"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center"
                 android:inputType="textPassword"
                 android:textSize="18sp" />
 
@@ -75,13 +87,54 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp">
 
-    <Button
-        android:id="@+id/btnLogin"
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/btnIngresar"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btnTegistrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnRegistrar"
+            android:textColor="@color/black" />
+
+        <Button
+            android:id="@+id/btnIngGoogle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnLogGoogle"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Ingresar" />
+        android:gravity="center"
+        android:text="@string/olvido"
+        android:textSize="18sp" />
 
 
 </LinearLayout>

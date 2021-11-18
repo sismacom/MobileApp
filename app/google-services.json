@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "465364244290",
+    "project_id": "turismoapp-9e1cf",
+    "storage_bucket": "turismoapp-9e1cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465364244290:android:0667b37544b015ebc81adb",
+        "android_client_info": {
+          "package_name": "spm.sismacom.frontend.appturimo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "465364244290-dm76tave5kbobldvs7qlnnpe1u7ob9jk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6clofIAS7IvNW2CFB2-mWVdI_8zfC5IY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "465364244290-dm76tave5kbobldvs7qlnnpe1u7ob9jk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
